@@ -1,0 +1,92 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+  background-color: #f5befada;
+}
+
+
+img{
+  display: block;
+  margin: 0 auto;
+  height:200px;
+  width:200px;
+}
+
+
+.titleApi{
+  color:red;
+  text-align:center;
+  margin:0;
+  padding:10px;
+}
+
+.searchBox{
+  display:flex;
+  justify-content: center;
+  padding:10px;
+}
+
+.typeAndAbility{
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  text-transform:capitalize;
+}
+
+.types{
+  flex-basis:100%;
+  text-align:center;
+}
+
+.abilityDescriptions li {
+  list-style-type: none;
+  font-size:24px;
+  font-weight:bold;
+  text-transform:capitalize;
+
+}
+
+ul {
+  display:flex;
+  flex-wrap:wrap;
+  width:100%;
+  height:100%;
+}
+
+
+.moves{
+  font-size:24px;
+  font-weight:bold;
+  text-align:center;
+  margin:0;
+}
+
+ul li {
+    font-size:12px;
+    list-style-type:none;
+    padding:5px;
+    border:1px solid black;
+  }
+
+
+
+
+.water {
+  display:none;
+  color:white;
+  background-color:blue; 
+  border:solid black 2px;
+  border-radius: 30px;
+  padding:5px;
+}
