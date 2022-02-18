@@ -89,9 +89,7 @@ pokeData.moves.forEach(obj=>{
 // add a try and catch.
 
 
-
-
-
+// try OOP ?
 
 
 
